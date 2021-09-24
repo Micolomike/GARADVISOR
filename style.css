@@ -1,0 +1,20 @@
+@font-face {
+    font-family:"blowbrush" ;
+    src: url(blowbrush/blowbrush.otf);
+}
+
+.Font{
+    max-width: 100%;
+    min-height: 100%;
+}
+header {
+    
+    box-shadow: 10px 20px 10px black;
+    border-radius: 150px;
+    background-color: #f3ff00;
+   color: #ff0000;
+    border-color: brown;
+    opacity: 0.5;
+    text-align: center;
+font-family: "blowbrush" ;
+}
