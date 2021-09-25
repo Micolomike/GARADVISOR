@@ -2,13 +2,13 @@
     font-family:"blowbrush" ;
     src: url(blowbrush/blowbrush.otf);
 }
-
-.Font{
-    max-width: 100%;
-    min-height: 100%;
-}
-header {
+body{
+   
     
+}
+
+header {
+ 
     box-shadow: 10px 20px 10px black;
     border-radius: 150px;
     background-color: #f3ff00;
@@ -17,4 +17,50 @@ header {
     opacity: 0.5;
     text-align: center;
 font-family: "blowbrush" ;
+}
+
+.TKT{
+    
+    overflow: hidden;
+    position: relative;
+}
+.TKT h3
+{ 
+    color: black;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);  
+ transform:translateX(100%);
+ /* Apply animation to this element */  
+ -moz-animation: TKT 15s linear infinite;
+ -webkit-animation: TKT 15s linear infinite;
+ animation: TKT 10s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes TKT {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(0%); }
+}
+@-webkit-keyframes TKT {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(0%); }
+}
+@keyframes TKT {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);     
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(0%); /* Firefox bug fix */
+ transform: translateX(0%); 
+ }
+
+
 }
