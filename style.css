@@ -4,7 +4,9 @@
 }
 
 
-
+.nav-link {
+    padding-left: 20px;
+}
 
 .nav-item:hover {
     background: #757575;
@@ -18,18 +20,14 @@
 }
 
 .navbar-nav {
-    display: inline-flex;
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-around;
 }
 
 .nav-item {
-    display: inline-flex;
-    margin-right: 70px;
-    margin-top: 95px;
+    display: flex;
     border-radius: 30px;
-    padding: 10px 30px 10px 30px; 
+    padding: 10px 10px 10px 10px;
     background: yellow; 
     color: black;
 }
