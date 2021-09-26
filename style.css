@@ -3,6 +3,20 @@
     src: url(blowbrush/blowbrush.otf);
 }
 
+
+a.nav-link {
+    display: flex;
+    border-radius: 30px;
+    padding: 10px 30px; 
+    background: yellow; 
+    color: black;
+}
+
+a.nav-link:hover {
+    background: #757575;
+    color: white;
+}
+
 .banniere {
  
 width: 100%;
@@ -10,14 +24,13 @@ width: 100%;
 }
 
 .navbar-nav {
-    size: 50px;
     display: flex;
     justify-content: center;
     
 }
 
 .nav-item {
-
+    size: flex;
     margin-right: 200px;
     margin-top: 95px;
 }
