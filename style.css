@@ -4,15 +4,9 @@
 }
 
 
-a.nav-link {
-    display: flex;
-    border-radius: 30px;
-    padding: 10px 30px; 
-    background: yellow; 
-    color: black;
-}
 
-a.nav-link:hover {
+
+.nav-item:hover {
     background: #757575;
     color: white;
 }
@@ -34,6 +28,10 @@ a.nav-link:hover {
     display: inline-flex;
     margin-right: 70px;
     margin-top: 95px;
+    border-radius: 30px;
+    padding: 10px 30px 10px 30px; 
+    background: yellow; 
+    color: black;
 }
 
 .TKT{
