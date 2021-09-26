@@ -7,16 +7,30 @@ body{
     
 }
 
-header {
+.banniere {
  
-    box-shadow: 10px 20px 10px black;
-    border-radius: 150px;
-    background-color: #f3ff00;
-   color: #ff0000;
-    border-color: brown;
-    opacity: 0.5;
-    text-align: center;
-font-family: "blowbrush" ;
+width: 100%;
+
+}
+
+.navbar-nav {
+    size: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+nav {
+    background-image: url(https://zupimages.net/up/21/38/0zba.png);
+    width: auto;
+    height: 200px;
+    
+    
+}
+
+.nav-item {
+
+    margin-right: 200px;
+    margin-top: 95px;
 }
 
 .TKT{
@@ -31,7 +45,7 @@ font-family: "blowbrush" ;
     height: 100%;
     margin: 0;
     line-height: 50px;
-    text-align: center;
+    text-align: center; 
  /* Starting position */
  -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);  
@@ -61,6 +75,7 @@ font-family: "blowbrush" ;
  -webkit-transform: translateX(0%); /* Firefox bug fix */
  transform: translateX(0%); 
  }
+
 
 
 }
