@@ -1,22 +1,31 @@
 @font-face {
-    font-family:"blowbrush" ;
-    src: url(blowbrush/blowbrush.otf);
+    font-family:"monofonto" ;
+    src: url(polices/monofonto/monofonto.otf);
+    
 }
 
+.chaine {
+    width: 100%;    
+}
+
+body {
+    background-color: black;
+}
 
 .nav-link {
-    padding-left: 20px;
+    font-size: 20px;
+    font-family: monofonto;
+    color: #FFFA14;
 }
 
 .nav-item:hover {
-    background: #757575;
+    background: #52789E;
     color: white;
 }
 
 .banniere {
     width: 100%;
     position: center;
-
 }
 
 .navbar-nav {
@@ -27,19 +36,18 @@
 .nav-item {
     display: flex;
     border-radius: 30px;
-    padding: 10px 10px 10px 10px;
-    background: yellow; 
+    padding: 10px 30px 10px 30px;
+    background: #757575; 
     color: black;
 }
 
 .TKT{
-    
     overflow: hidden;
     position: relative;
 }
 .TKT h3
 { 
-    color: black;
+    color: white;
     width: 50%;
     height: 100%;
     margin: 0;
