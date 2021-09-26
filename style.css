@@ -9,10 +9,24 @@
   box-sizing: border-box;
 }
 
+h2 {
+  font-size: 25px;
+  color: aliceblue;
+  text-align: center;
+}
 
+.bienvenue {
+ font-size: 20px;
+ color: aliceblue;
+ margin: 05% 10% 10% 10%;
+ text-align: center;
+ 
+ 
+}
 .wrapper {
   display: flex;
   justify-content: center;
+  
 }
 
 .nav-item {
