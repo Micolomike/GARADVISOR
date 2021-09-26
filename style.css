@@ -18,20 +18,21 @@ a.nav-link:hover {
 }
 
 .banniere {
- 
-width: 100%;
+    width: 100%;
+    position: center;
 
 }
 
 .navbar-nav {
+    display: inline-flex;
     display: flex;
     justify-content: center;
     
 }
 
 .nav-item {
-    size: flex;
-    margin-right: 200px;
+    display: inline-flex;
+    margin-right: 70px;
     margin-top: 95px;
 }
 
