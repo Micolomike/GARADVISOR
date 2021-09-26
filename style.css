@@ -2,10 +2,6 @@
     font-family:"blowbrush" ;
     src: url(blowbrush/blowbrush.otf);
 }
-body{
-   
-    
-}
 
 .banniere {
  
@@ -17,13 +13,6 @@ width: 100%;
     size: 50px;
     display: flex;
     justify-content: center;
-    
-}
-nav {
-    background-image: url(https://zupimages.net/up/21/38/0zba.png);
-    width: auto;
-    height: 200px;
-    
     
 }
 
@@ -75,7 +64,5 @@ nav {
  -webkit-transform: translateX(0%); /* Firefox bug fix */
  transform: translateX(0%); 
  }
-
-
 
 }
