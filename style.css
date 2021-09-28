@@ -16,13 +16,15 @@ h2 {
 }
 
 
-
+.carte {
+    margin: 0 auto;
+}
 
 .bienvenue {
  font-size: 20px;
  color: aliceblue;
  margin: 05% 10% 10% 10%;
- line-height: 3;
+ line-height: 2;
  }
 .wrapper {
   display: flex;
@@ -151,7 +153,7 @@ body {
 }*/
 
 .mecano {
-    width: 25%;
+    width: 20%;
     float: left;
 }
 
