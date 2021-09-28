@@ -9,6 +9,18 @@
   box-sizing: border-box;
 }
 
+#map {
+    height: 100%;
+  }
+  
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
 h2 {
   font-size: 25px;
   color: aliceblue;
@@ -17,7 +29,7 @@ h2 {
 
 
 .carte {
-    margin: 0 auto;
+    margin: 50 auto;
 }
 
 .bienvenue {
