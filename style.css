@@ -15,14 +15,15 @@ h2 {
   text-align: center;
 }
 
+
+
+
 .bienvenue {
  font-size: 20px;
  color: aliceblue;
  margin: 05% 10% 10% 10%;
- text-align: center;
- 
- 
-}
+ line-height: 3;
+ }
 .wrapper {
   display: flex;
   justify-content: center;
