@@ -1,7 +1,13 @@
 @font-face {
-    font-family:"monofonto" ;
+    font-family:"monofonto";
     src: url(polices/monofonto/monofonto.otf);
 }
+
+@font-face {
+    font-family:"starboard";
+    src: url(polices/starboard/Starboard.otf)
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:900i');
 
@@ -9,13 +15,25 @@
     background-color: black;
 }
 
+header {
+    color: whitesmoke;
+    text-align: center;
+    font-family: starboard;
+}
+
 h2 {
   font-size: 25px;
   color: aliceblue;
   text-align: center;
+  margin-top: 1px;
 }
 
-
+.map {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+}
 .carte {
     margin: 50 auto;
 }
